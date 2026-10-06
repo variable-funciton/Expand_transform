@@ -83,6 +83,7 @@ fig.add_trace(go.Scatter(
 
 # レイアウト設定
 fig.update_layout(
+    font=dict(family="Noto Sans CJK JP, Meiryo, 'Yu Gothic', sans-serif"),
     xaxis=dict(
         range=[-11, 12.5], dtick=1,
         zeroline=True, zerolinecolor='black', zerolinewidth=1.5,
